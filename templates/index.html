@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Trading Company</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            overflow-x: hidden;
+        }
+
+        nav {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+
+        h1, h2 {
+            text-align: center;
+            margin-top: 50px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        p {
+            text-align: center;
+            margin: 20px auto;
+            max-width: 600px;
+            animation: slideIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .service-card {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            transition: transform 0.3s;
+        }
+
+        .service-card:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="/">Yash Trading Company</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Welcome to Yash Trading Company</h1>
+        <p>Your success is our priority. We offer a range of trading services to help you achieve your financial goals.</p>
+
+        <h2 id="about">About Us</h2>
+        <p>Yash Trading Company is a leading trading firm with years of experience in the industry. We are committed to providing our clients with the best trading solutions.</p>
+
+        <h2 id="services">Our Services</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="service-card">
+                    <h3>Stock Trading</h3>
+                    <p>Expert guidance on stock trading to maximize your investments.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-card">
+                    <h3>Forex Trading</h3>
+                    <p>Trade currencies with our experienced forex traders.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-card">
+                    <h3>Investment Consulting</h3>
+                    <p>Personalized investment strategies tailored to your needs.</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 id="contact">Contact Us</h2>
+        <p>If you have any questions, feel free to reach out to us at <a href="mailto:info@yashtrading.com" style="color: #ff7e5f;">info@yashtrading.com</a>.</p>
+    </div>
+
+    <footer>
+       
