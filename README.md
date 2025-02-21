@@ -1,4 +1,4 @@
-# pythonproject
+![Screenshot 2025-02-22 000334](https://github.com/user-attachments/assets/6e262cf6-174a-444e-866e-1cf5ab173528)# pythonproject
 
 ```markdown
 # Yash Trading Company Website
